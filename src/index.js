@@ -1,12 +1,13 @@
 import React from "react";
-
-
 import  ReactDOM  from "react-dom";
+import Landing from "./landing";
 
 const App = () => {
-   return (<main>
-        <h1>Hello World</h1>
-   </main> )
+   return (
+      <main>
+         <Landing/>
+      </main>
+   )
 }
 
 ReactDOM.render(App(),
